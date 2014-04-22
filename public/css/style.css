@@ -1,0 +1,151 @@
+/* Demo CSS */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1em;
+    font-family: trebuchet ms, verdana, sans-serif;
+}
+
+h1.tituloprincipal{
+    font-size: 1.2em;
+    padding: .5em 1em;
+    margin: 0;
+    background: #333;
+    color: #fff;
+}
+
+header nav {
+    font-size: .8em;
+    background: #dde;
+    
+}
+header nav a {
+    color: #006;
+}
+
+header li {
+    list-style-type: none;
+    display: inline-block;
+    margin:0;
+    padding: .5em 1.3em;
+}
+header ul {
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    margin: 1em;
+}
+.listaterminos article{
+    background: #ddd;
+    padding: 15px;
+    margin: 0 10px 10px 0;
+    float: left;
+    width: 45%;
+}
+
+.listaterminos article h1{
+    font-size: 1em;
+    margin: 0;
+}
+.listaterminos article a{
+    text-decoration: none;
+}
+.listaterminos .fecha{
+    font-size: .8em;
+}
+
+form.login section{
+    padding: 20px;
+    border: 1px solid #99a;
+    width: 270px;
+}
+form.login label{
+    width: 85px;
+    display: inline-block;
+}
+form.login  input{
+    margin-bottom: 5px;
+}
+h2{
+    font-size: 1.3em;
+}
+.error{
+    padding: 20px;
+    background-color: #fdd;
+    color: #600;
+    margin-bottom: 10px;
+}
+.success{
+    padding: 20px;
+    background-color: #dfd;
+    color: #060;
+    margin-bottom: 10px;
+}
+
+/*estilos para el elemento ordenable */
+#sortable{
+    list-style-type: none;
+}
+#sortable li{
+    width: 300px;
+    padding: 5px 20px;
+    margin-bottom: 5px;
+    min-height: 15px;
+}
+
+.ordenable{
+    background: #ad7;
+    color: #333;
+    
+}
+.ordenable span{
+    display: inline-block;
+    margin-top: 2px;
+    margin-right: 5px;
+    float: left;
+}
+
+/* estilos para el elemento de ticker */
+#terminoslista li{
+    margin-bottom: 10px;
+}
+#intercambiador{
+   border: 1px solid #ccc;
+   width: 234px;
+   height: 60px;
+   overflow: hidden;
+   margin-bottom: 20px;
+}
+#intercambiador ul{
+   margin: 0;
+   padding: 0;
+   position: relative;
+   top: 0;
+   left: 0;
+}
+#intercambiador li{
+   margin: 0;
+   padding: 5px;
+   height: 50px;
+   overflow: hidden;
+   line-height: 16px;
+}
+#intercambiador li a{
+   font-weight: bold;
+   text-transform: uppercase;
+   font-size: 0.7em;
+}
+
+/* estilos para sección de categoreias */
+#listadocategorias a{
+    font-size: 0.8em;
+    text-decoration: none;
+}
+#listadocategorias li{
+    margin-bottom: 10px;
+}
